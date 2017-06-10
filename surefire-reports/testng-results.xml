@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[[22:06:21.638] Navigate to http://www.parishotelsweb.com/ru/]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:31.089] Navigate to http://www.parishotelsweb.com/ru/]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:34.979] Search for element By.cssSelector: .calendar-cont]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:35.148] Search for element By.cssSelector: .calendar-cont]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:35.205] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:35.582] Search for element By.cssSelector: .ui-datepicker-next.ui-corner-all]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:36.1  ] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:36.361] Search for element By.xpath: //a[@class="ui-state-default" and text()="7"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:36.478] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:36.736] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:36.88 ] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:36.998] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:46.709] Navigate to http://www.parishotelsweb.com/search/?sort=Rating/&order=DESC/&part=1/&Name=]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:53.931] Navigate to http://www.parishotelsweb.com/search/?sort=Rating/&order=DESC/&part=1/&Name=]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:55.716] Search for element By.cssSelector: .calendar-cont]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:55.832] Search for element By.cssSelector: .calendar-cont]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:55.957] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:56.305] Search for element By.cssSelector: .ui-datepicker-next.ui-corner-all]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:56.657] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:57.095] Search for element By.xpath: //a[@class="ui-state-default" and text()="7"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:57.23 ] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:57.617] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:57.896] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:06:58.654] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:06.015] Navigate to http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:14.852] Navigate to http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:18.196] Search for element By.cssSelector: .calendar_field]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:18.311] Search for element By.cssSelector: .calendar_field]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:18.42 ] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:18.826] Search for element By.cssSelector: .ui-datepicker-next.ui-corner-all]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:19.017] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:19.405] Search for element By.xpath: //a[@class="ui-state-default" and text()="7"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:19.607] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:20.04 ] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:20.224] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+    </line>
+    <line>
+      <![CDATA[[22:07:20.372] Click on element a]]>
+    </line>
+  </reporter-output>
+  <suite name="Products Management" duration-ms="71079" started-at="2017-06-10T19:06:12Z" finished-at="2017-06-10T19:07:23Z">
+    <groups>
+      <group name="init">
+        <method signature="URLCheck.urlCheck(java.lang.String, java.lang.String)[pri:0, instance:task1.tests.URLCheck@6a3f77]" name="urlCheck" class="task1.tests.URLCheck"/>
+        <method signature="URLCheck.urlCheckByData(java.lang.String, java.lang.String, int)[pri:0, instance:task1.tests.URLCheck@6a3f77]" name="urlCheckByData" class="task1.tests.URLCheck"/>
+        <method signature="URLCheck.urlCheck(java.lang.String, java.lang.String)[pri:0, instance:task1.tests.URLCheck@109b8da]" name="urlCheck" class="task1.tests.URLCheck"/>
+        <method signature="URLCheck.urlCheckByData(java.lang.String, java.lang.String, int)[pri:0, instance:task1.tests.URLCheck@109b8da]" name="urlCheckByData" class="task1.tests.URLCheck"/>
+        <method signature="URLCheck.urlCheck(java.lang.String, java.lang.String)[pri:0, instance:task1.tests.URLCheck@b7bfc0]" name="urlCheck" class="task1.tests.URLCheck"/>
+        <method signature="URLCheck.urlCheckByData(java.lang.String, java.lang.String, int)[pri:0, instance:task1.tests.URLCheck@b7bfc0]" name="urlCheckByData" class="task1.tests.URLCheck"/>
+      </group> <!-- init -->
+    </groups>
+    <test name="URLCheck [http://www.parishotelsweb.com/ru/]" duration-ms="29179" started-at="2017-06-10T19:06:12Z" finished-at="2017-06-10T19:06:41Z">
+      <class name="task1.tests.URLCheck">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:task1.tests.URLCheck@6a3f77]" name="setUp" is-config="true" duration-ms="8796" started-at="2017-06-10T22:06:12Z" finished-at="2017-06-10T22:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="urlCheck(java.lang.String, java.lang.String)[pri:0, instance:task1.tests.URLCheck@6a3f77]" name="urlCheck" duration-ms="9524" started-at="2017-06-10T22:06:21Z" finished-at="2017-06-10T22:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.parishotelsweb.com/ru/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parishotelsweb1.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[22:06:21.638] Navigate to http://www.parishotelsweb.com/ru/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method status="PASS" signature="urlCheckByData(java.lang.String, java.lang.String, int)[pri:0, instance:task1.tests.URLCheck@6a3f77]" name="urlCheckByData" duration-ms="7160" started-at="2017-06-10T22:06:31Z" finished-at="2017-06-10T22:06:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.parishotelsweb.com/ru/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parishotelsweb1.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[22:06:31.089] Navigate to http://www.parishotelsweb.com/ru/]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:34.979] Search for element By.cssSelector: .calendar-cont]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:35.148] Search for element By.cssSelector: .calendar-cont]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:35.205] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:35.582] Search for element By.cssSelector: .ui-datepicker-next.ui-corner-all]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:36.1  ] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:36.361] Search for element By.xpath: //a[@class="ui-state-default" and text()="7"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:36.478] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:36.736] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:36.88 ] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:36.998] Click on element a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlCheckByData -->
+        <test-method status="PASS" signature="pixelCheck()[pri:0, instance:task1.tests.URLCheck@6a3f77]" name="pixelCheck" duration-ms="6" depends-on-groups="init.*" started-at="2017-06-10T22:06:38Z" finished-at="2017-06-10T22:06:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pixelCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:task1.tests.URLCheck@6a3f77]" name="tearDown" is-config="true" duration-ms="3640" started-at="2017-06-10T22:06:38Z" finished-at="2017-06-10T22:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- task1.tests.URLCheck -->
+    </test> <!-- URLCheck [http://www.parishotelsweb.com/ru/] -->
+    <test name="URLCheck [http://www.parishotelsweb.com/search/...]" duration-ms="19133" started-at="2017-06-10T19:06:42Z" finished-at="2017-06-10T19:07:01Z">
+      <class name="task1.tests.URLCheck">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:task1.tests.URLCheck@109b8da]" name="setUp" is-config="true" duration-ms="4277" started-at="2017-06-10T22:06:42Z" finished-at="2017-06-10T22:06:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="urlCheck(java.lang.String, java.lang.String)[pri:0, instance:task1.tests.URLCheck@109b8da]" name="urlCheck" duration-ms="7219" started-at="2017-06-10T22:06:46Z" finished-at="2017-06-10T22:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.parishotelsweb.com/search/?sort=Rating/&order=DESC/&part=1/&Name=]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parishotelsweb2.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[22:06:46.709] Navigate to http://www.parishotelsweb.com/search/?sort=Rating/&order=DESC/&part=1/&Name=]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method status="PASS" signature="urlCheckByData(java.lang.String, java.lang.String, int)[pri:0, instance:task1.tests.URLCheck@109b8da]" name="urlCheckByData" duration-ms="5542" started-at="2017-06-10T22:06:53Z" finished-at="2017-06-10T22:06:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.parishotelsweb.com/search/?sort=Rating/&order=DESC/&part=1/&Name=]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parishotelsweb2.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[22:06:53.931] Navigate to http://www.parishotelsweb.com/search/?sort=Rating/&order=DESC/&part=1/&Name=]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:55.716] Search for element By.cssSelector: .calendar-cont]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:55.832] Search for element By.cssSelector: .calendar-cont]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:55.957] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:56.305] Search for element By.cssSelector: .ui-datepicker-next.ui-corner-all]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:56.657] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:57.095] Search for element By.xpath: //a[@class="ui-state-default" and text()="7"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:57.23 ] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:57.617] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:57.896] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:06:58.654] Click on element a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlCheckByData -->
+        <test-method status="PASS" signature="pixelCheck()[pri:0, instance:task1.tests.URLCheck@109b8da]" name="pixelCheck" duration-ms="1" depends-on-groups="init.*" started-at="2017-06-10T22:06:59Z" finished-at="2017-06-10T22:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pixelCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:task1.tests.URLCheck@109b8da]" name="tearDown" is-config="true" duration-ms="2086" started-at="2017-06-10T22:06:59Z" finished-at="2017-06-10T22:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- task1.tests.URLCheck -->
+    </test> <!-- URLCheck [http://www.parishotelsweb.com/search/...] -->
+    <test name="URLCheck [http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]" duration-ms="22165" started-at="2017-06-10T19:07:01Z" finished-at="2017-06-10T19:07:23Z">
+      <class name="task1.tests.URLCheck">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:task1.tests.URLCheck@b7bfc0]" name="setUp" is-config="true" duration-ms="4378" started-at="2017-06-10T22:07:01Z" finished-at="2017-06-10T22:07:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="urlCheck(java.lang.String, java.lang.String)[pri:0, instance:task1.tests.URLCheck@b7bfc0]" name="urlCheck" duration-ms="8837" started-at="2017-06-10T22:07:06Z" finished-at="2017-06-10T22:07:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parishotelsweb3.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[22:07:06.015] Navigate to http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlCheck -->
+        <test-method status="PASS" signature="urlCheckByData(java.lang.String, java.lang.String, int)[pri:0, instance:task1.tests.URLCheck@b7bfc0]" name="urlCheckByData" duration-ms="6780" started-at="2017-06-10T22:07:14Z" finished-at="2017-06-10T22:07:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parishotelsweb3.png]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[22:07:14.852] Navigate to http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:18.196] Search for element By.cssSelector: .calendar_field]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:18.311] Search for element By.cssSelector: .calendar_field]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:18.42 ] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:18.826] Search for element By.cssSelector: .ui-datepicker-next.ui-corner-all]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:19.017] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:19.405] Search for element By.xpath: //a[@class="ui-state-default" and text()="7"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:19.607] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:20.04 ] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:20.224] Search for element By.xpath: //a[@class="ui-state-default" and text()="15"]]]>
+            </line>
+            <line>
+              <![CDATA[[22:07:20.372] Click on element a]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- urlCheckByData -->
+        <test-method status="PASS" signature="pixelCheck()[pri:0, instance:task1.tests.URLCheck@b7bfc0]" name="pixelCheck" duration-ms="0" depends-on-groups="init.*" started-at="2017-06-10T22:07:21Z" finished-at="2017-06-10T22:07:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pixelCheck -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:task1.tests.URLCheck@b7bfc0]" name="tearDown" is-config="true" duration-ms="2164" started-at="2017-06-10T22:07:21Z" finished-at="2017-06-10T22:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- task1.tests.URLCheck -->
+    </test> <!-- URLCheck [http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/] -->
+  </suite> <!-- Products Management -->
+</testng-results>
