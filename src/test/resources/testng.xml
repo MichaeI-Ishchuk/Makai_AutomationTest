@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="Products Management" verbose="1" >
+
+    <test name="URLCheck [http://www.parishotelsweb.com/ru/]" >
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://www.parishotelsweb.com/ru/"></parameter>
+        <parameter name="fileName" value="parishotelsweb1.png"></parameter>
+        <classes>
+        <class name="task1.tests.URLCheck"></class>
+        </classes>
+    </test>
+    <test name="URLCheck [http://www.parishotelsweb.com/search/...]" >
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://www.parishotelsweb.com/search/?sort=Rating/&amp;order=DESC/&amp;part=1/&amp;Name="></parameter>
+        <parameter name="fileName" value="parishotelsweb2.png"></parameter>
+        <parameter name="id" value="0"></parameter>
+        <classes>
+            <class name="task1.tests.URLCheck"></class>
+        </classes>
+    </test>
+    <test name="URLCheck [http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/]" >
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://bridgestreet-st-germain-hotel.parishotelsweb.com/ru/"></parameter>
+        <parameter name="id" value="1"></parameter>
+        <parameter name="fileName" value="parishotelsweb3.png"></parameter>
+        <classes>
+            <class name="task1.tests.URLCheck"></class>
+        </classes>
+    </test>
+
+
+</suite>
